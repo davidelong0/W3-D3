@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/luxurious-background-with-golden-shapes_52683-23982.jpg');
+}
+
+
+header {
+    background-color: #00244a;
+    color: white;
+    padding: 15px;
+}
+
+.task-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    max-width: 100%; 
+    margin: 20px auto;
+    box-sizing: border-box; 
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%; 
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto 15px auto; 
+}
+
+button {
+    background-color: #002853;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#task-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.task-item {
+    background: #eee;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; 
+    margin: 5px;
+    white-space: nowrap; 
+}
+
+
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.task-item button {
+    background: rgb(157, 139, 0);
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+
+.task-item button:hover {
+    background: rgb(97, 79, 0);
+}
+
+footer {
+    color: yellow;
+}
